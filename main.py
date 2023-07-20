@@ -30,6 +30,7 @@ def get_token():
 def get_auth_header(token):
     return {"Authorization" : "Bearer " + token}
 
+#  A function that gets playlists id, clients id, and clients secret from the Spotify API. The function then returns a dictionary of keys (artists) and values (lists of their songs).
 def get_playlist_tracks(playlist_id, client_id, client_secret):
     auth_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
     sp = spotipy.Spotify(auth_manager=auth_manager)
@@ -46,6 +47,7 @@ def get_playlist_tracks(playlist_id, client_id, client_secret):
                 artists_songs_dict[artist_name] = [song_name]
     return artists_songs_dict
 
+#  A function that uses the returned value of the previous function in order to search for the song using youtubesearchpython module.
 def search_for_songs(song_dict):
     link_list = []
     for artist, songs in song_dict.items():
@@ -57,6 +59,7 @@ def search_for_songs(song_dict):
             link_list.append(link)
     return link_list
 
+#  A function that uses the returned value of the previous function and destination of the users's choice in order to download songs from a Spotify playlist into the designated folder.
 def download_mp3(list_of_links, destination):
     for link in list_of_links:
         try:
