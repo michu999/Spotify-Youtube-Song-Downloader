@@ -1,5 +1,4 @@
-import Playlist_class
-
+from Playlist_class import *
 spotify_playlist_url = input("Please enter your spotify playlist url: ")
 file_destination = input("Please enter the destination where the songs will be saved at: ")
 song_name = input("(IF NEEDED) Please enter the song name you want to remove from the folder (without .mp3 extension): ")
