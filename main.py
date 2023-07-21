@@ -1,4 +1,4 @@
-import spot
+import Playlist_class
 
 spotify_playlist_url = input("Please enter your spotify playlist url: ")
 file_destination = input("Please enter the destination where the songs will be saved at: ")
