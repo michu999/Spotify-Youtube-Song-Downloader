@@ -23,7 +23,7 @@ To install the Spotify YouTube Downloader and its dependencies, follow these ste
 
 1. Clone the repository to your local machine:
 
-git clone https://github.com/your_username/spotify-youtube-downloader.git
+        git clone https://github.com/your_username/spotify-youtube-downloader.git
 
 2. Navigate to the project directory:
 
