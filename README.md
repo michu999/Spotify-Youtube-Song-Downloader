@@ -19,13 +19,20 @@ Whether you're compiling a playlist for your next adventure or simply curating y
 
 ## Installation
 
-To use the Spotify YouTube Downloader, follow these steps:
+To install the Spotify YouTube Downloader and its dependencies, follow these steps:
 
 1. Clone the repository to your local machine:
-   git clone https://github.com/your_username/spotify-youtube-downloader.git
 
-3. Install the required dependencies:
-   pip install -r requirements.txt
+git clone https://github.com/your_username/spotify-youtube-downloader.git
 
-5. Run the application:
-   python main.py
+2. Navigate to the project directory:
+
+cd spotify-youtube-downloader
+
+3. Install the required dependencies using pip:
+
+pip install -r requirements.txt
+
+4. Run the application:
+
+python main.py
