@@ -27,12 +27,12 @@ git clone https://github.com/your_username/spotify-youtube-downloader.git
 
 2. Navigate to the project directory:
 
-          cd spotify-youtube-downloader
+             cd spotify-youtube-downloader
 
 3. Install the required dependencies using pip:
 
-        pip install -r requirements.txt
+             pip install -r requirements.txt
 
 4. Run the application:
 
-        python main.py
+             python main.py
