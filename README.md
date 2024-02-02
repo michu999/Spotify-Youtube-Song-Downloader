@@ -22,10 +22,10 @@ Whether you're compiling a playlist for your next adventure or simply curating y
 To use the Spotify YouTube Downloader, follow these steps:
 
 1. Clone the repository to your local machine:
-      git clone https://github.com/your_username/spotify-youtube-downloader.git
+   git clone https://github.com/your_username/spotify-youtube-downloader.git
 
 3. Install the required dependencies:
-      pip install -r requirements.txt
+   pip install -r requirements.txt
 
 5. Run the application:
-      python main.py
+   python main.py
